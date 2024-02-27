@@ -1,0 +1,155 @@
+.bg-image--left,
+.bg-image--right {
+    position: absolute;
+}
+
+.row {
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.bg-image--left {
+    left: 0;
+    bottom: 0;
+    width: 507.2px;
+}
+
+.bg-image--right {
+    right: 0;
+    bottom: 0;
+    width: 42.5%;
+}
+
+.bg-image--left img,
+.bg-image--right img {
+    width: 100%;
+}
+.container-fluid-login {
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 100vh;
+    justify-content: center;
+    background-color: white;
+}
+.login__main__invalid p,
+.login__main__success p {
+    margin-bottom: 0 !important;
+    font-size: 11.19px !important;
+}
+
+.login__main__success {
+    background-color: #d7f3e3;
+    text-align: center !important;
+    margin-bottom: 12.88px;
+}
+
+.login__logo {
+    width: 57.6px;
+    margin: 19.2px auto 10.79px auto;
+}
+
+.login__logo img {
+    width: 100%;
+}
+
+.login__main__title {
+    font-size: 19.2px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21 !important;
+    letter-spacing: normal !important;
+    text-align: center;
+    color: #1b1c1e;
+}
+
+.login__main__title p {
+    margin-bottom: 0 !important;
+}
+
+.login__main__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    padding: 60px 35.2px 28.8px 35.2px;
+    border-radius: 4px;
+    font-size: 12.88px;
+    color: #5f5f5f;
+}
+
+.login__main__form > div {
+    padding-bottom: 4px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login__main__form label {
+    line-height: 1.19;
+    margin-bottom: 1px;
+}
+
+.login__main__form input {
+    width: 20%;
+    margin-bottom: 12.88px;
+}
+
+.login__main__form button {
+    background-color: #bb2019;
+    font-family: SFProDisplay;
+    font-size: 12.88px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 16px auto;
+    height: 39.19px;
+    margin-bottom: 12.88px;
+}
+
+.login__main__form a.button {
+    background-color: #0078d4;
+    font-family: SFProDisplay;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    height: 39.19px;
+    margin-top: 12.88px;
+    margin-bottom: 12.88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__main__form button:enabled {
+    outline: none;
+    border: none;
+}
+
+.login__main__form input {
+    height: 37.6px;
+    border-radius: 4px;
+    border: solid 1.6px #d8dee2;
+    background-color: #fafbfc;
+    padding-left: 15.36px;
+}
+.login1{
+    width: 120px;
+    height: 30px;
+}

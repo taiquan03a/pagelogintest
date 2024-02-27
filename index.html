@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.png" />
+    <meta name="csrf-token" content="k1THZpqbeFstiUnkO3Z2oRO0lRfFNzuICm1rKAKP">
+    <title>Đăng nhập</title>
+    <!-- Scripts -->
+    <script src="https://code.ptit.edu.vn/js/app.js" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<!-- BACKGROUND IMAGE  -->
+<div class="bg-image--left">
+    <img src="bg_left.png" alt="">
+</div>
+<div class="bg-image--right">
+    <img src="bg_right.png" alt="">
+</div>
+
+<div class="container-fluid-login">
+    <div class="login">
+        <div class="login__main">
+
+            <div class="login__logo">
+                <img src="logo_ptit.png" alt="Logo">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="login__main__title">
+                        <p>Đăng nhập</p>
+                        <p><b>Thi trắc nghiệm</b></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="col">
+                    <form action="" class="login__main__form" method="post">
+                        <input type="hidden" name="_token" value="k1THZpqbeFstiUnkO3Z2oRO0lRfFNzuICm1rKAKP">            
+                        <label for="login__user">Tài khoản</label>
+                        <input type="text" name="username" id="login__user" value="" onchange="input_active('login__user')" autofocus>
+                        <label for="login__pw">Mật khẩu</label>
+                        <input type="password" name="password" id="login__pw" onchange="input_active('login__pw')">
+                        <div>
+                    </div>
+                  <button type="submit" class="login1"><span>Đăng nhập</span></button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
